@@ -6,6 +6,7 @@
    - Template hierarchy and The Loop
    - Custom post types and ACF
    - Block theme basics
+   - Update README goals
 
    ## Setup
    1. Clone into `wp-content/themes/`
