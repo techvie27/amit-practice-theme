@@ -8,6 +8,7 @@
    - Block theme basics
    - Update README goals
    - Update Header footer
+   - TEMP: this line is a mistake
 
    ## Setup
    1. Clone into `wp-content/themes/`
