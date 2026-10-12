@@ -7,6 +7,7 @@
    - Custom post types and ACF
    - Block theme basics
    - Update README goals
+   - Update Header footer
 
    ## Setup
    1. Clone into `wp-content/themes/`
