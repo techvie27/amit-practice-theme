@@ -10,9 +10,6 @@
 <header>
     <h2>Amit Practice Theme</h2>
     <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/services">Services</a>
-        <a href="/contact">Contact</a>
-    </nav>
+    <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+</nav>
 </header>
