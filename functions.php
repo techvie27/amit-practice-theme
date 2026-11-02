@@ -13,3 +13,17 @@ function amit_setup() {
     ) );
 }
 add_action( 'after_setup_theme', 'amit_setup' );
+
+function amit_register_services() {
+    register_post_type( 'service', array(
+        'labels'      => array(
+            'name'          => 'Services',
+            'singular_name' => 'Service',
+        ),
+        'public'      => true,
+        'has_archive' => true,
+        'supports'    => array( 'title', 'editor', 'thumbnail' ),
+        'menu_icon'   => 'dashicons-hammer',
+    ) );
+}
+add_action( 'init', 'amit_register_services' );
