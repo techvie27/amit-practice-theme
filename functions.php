@@ -27,3 +27,15 @@ function amit_register_services() {
     ) );
 }
 add_action( 'init', 'amit_register_services' );
+
+function amit_register_service_type() {
+    register_taxonomy( 'service_type', 'service', array(
+        'labels'       => array(
+            'name'          => 'Service Types',
+            'singular_name' => 'Service Type',
+        ),
+        'hierarchical' => true,
+        'show_in_rest' => true,
+    ) );
+}
+add_action( 'init', 'amit_register_service_type' );
